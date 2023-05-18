@@ -13,9 +13,9 @@ fi
 
 set -e
 
-export DEVICE=lemonadep
-export DEVICE_COMMON=sm8350-common
-export VENDOR=oneplus
-export VENDOR_COMMON=${VENDOR}
+export DEVICE=ferrari
+export DEVICE_COMMON=sm8450-common
+export VENDOR=realme
+export VENDOR_COMMON=oneplus
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
